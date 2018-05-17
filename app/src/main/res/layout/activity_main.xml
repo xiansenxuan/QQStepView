@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.xuan.qqstepview.QQStepView
+        android:id="@+id/step_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:borderWidth="5dp"
+        app:fontColor="@android:color/holo_green_light"
+        app:fontSize="20sp"
+        app:inColor="@android:color/holo_red_light"
+        app:outColor="@android:color/holo_blue_light"
+        app:stepNumber="7500"
+        app:stepNumberMax="15000"
+        />
+
+</android.support.constraint.ConstraintLayout>
