@@ -72,8 +72,6 @@ public class QQStepView extends View {
         textPaint.setAntiAlias(true);
         textPaint.setColor(fontColor);
         textPaint.setTextSize(fontSize);
-        textPaint.setStyle(Paint.Style.STROKE);
-        textPaint.setStrokeCap( Paint.Cap.ROUND);
     }
 
     /**
@@ -139,8 +137,8 @@ public class QQStepView extends View {
 
         //画第一个圆弧
         //     public void drawArc(@NonNull RectF oval, float startAngle, float sweepAngle, boolean useCenter,
-        //  startAngle开始的角度 sweepAngle-弧线顺时针旋转的角度 useCenter 如果为true，绘制的起点和终点会和圆心相连
         //            @NonNull Paint paint) {
+        //     startAngle开始的角度 sweepAngle-弧线顺时针旋转的角度 useCenter 如果为true，绘制的起点和终点会和圆心相连
         //     public RectF(float left, float top, float right, float bottom)
         //     矩形的宽width = right - left ，高height = bottom - top
         RectF outOval=new RectF(borderWidth/2,borderWidth/2,getWidth()-borderWidth/2,getHeight()-borderWidth/2);
